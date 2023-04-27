@@ -24,8 +24,8 @@ const duplicateCount = (str) => {
         }
     }
 
-    for(let el in obj){
-        if(obj[el] >= 2){
+    for(let key in obj){
+        if(obj[key] >= 2){
             count++
         }
     }
